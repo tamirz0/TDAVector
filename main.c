@@ -6,6 +6,8 @@ void mostrarEntero(const void* e);
 int cmpEntero(const void* e1, const void* e2);
 int* ingresoYValidacion(int min, int max);
 
+// Esto esta mal, no se puede hacer un return de un puntero a una variable local
+
 int main()
 {
     Vector Enteros;
